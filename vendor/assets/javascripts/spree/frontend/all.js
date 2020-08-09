@@ -10,3 +10,5 @@
 //= require spree/frontend
 
 //= require_tree .
+//= require spree/frontend/spree_multi_currency
+//= require spree/frontend/spree_paypal_express

@@ -11,6 +11,13 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'spree', '~> 4.1'
 gem 'spree_auth_devise', '~> 4.1'
 gem 'spree_gateway', '~> 3.7'
+
+gem 'spree_multi_currency', github: 'spree-contrib/spree_multi_currency'
+
+gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express'
+
+
+gem 'paperclip'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
